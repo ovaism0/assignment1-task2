@@ -1,0 +1,21 @@
+{
+    "name": "tinderapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "jQuery": "^1.7.4",
+      "mongoose": "^5.10.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4"
+    }
+  }
+  

@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Tinder</a>
+        </div>
+        <div class="nav-content">
+            <ul class="tabs red lighten-1">
+                <li class="tab">Find Match</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="profileList"></div>
+        <div id="matchingProfileDiv" style="display: none;">
+            <div class="row">
+                <div class="col s4 offset-s2">
+                    <h4 class="red-text text-lighten-2">Matched Successfully!</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4 offset-s2">
+                    <div class="card red lighten-5">
+                        <div class="card-content">
+                            <span class="card-title red-text"><h5 id="profileName"></h5></span>
+                            <p id="profileAge"></p>
+                            <p id="profileCountry"></p>
+                            <p id="profileGender"></p>
+                            <p id="profileStatus"></p>
+                            <p id="profileOccupation"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="card red lighten-5">
+                        <div class="card-content">
+                            <span class="card-title red-text"><h5 id="matchedName"></h5></span>
+                            <p id="matchedAge"></p>
+                            <p id="matchedCountry"></p>
+                            <p id="matchedGender"></p>
+                            <p id="matchedStatus"></p>
+                            <p id="matchedOccupation"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>;
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="public/js/home.js"></script>
+</body>
+
+</html>
